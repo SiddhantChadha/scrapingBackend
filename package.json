@@ -1,0 +1,24 @@
+{
+  "name": "scrapingbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddhantChadha/scrapingBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiddhantChadha/scrapingBackend/issues"
+  },
+  "homepage": "https://github.com/SiddhantChadha/scrapingBackend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jsdom": "^20.0.0",
+    "puppeteer": "^14.4.1"
+  }
+}
