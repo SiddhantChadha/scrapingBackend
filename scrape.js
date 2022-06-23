@@ -7,7 +7,7 @@ async function getDataFromFlipkart(product, company) {
     const baseURL = new URL('https://www.flipkart.com/search');
     baseURL.searchParams.append('q', `${company} ${product}`);
 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
     const page = await browser.newPage();
     await page.goto(baseURL, {
         waitUntil: 'networkidle2',
